@@ -1,0 +1,53 @@
+/*map-wrapper*/
+.map {
+    float: left;
+    width: 900px;
+    margin-bottom: 30px;
+}
+
+.map-wrapper {
+    display: inline-block;
+    width: 100%;
+}
+
+.map-wrapper p {
+    font-family: 'Roboto-Bold';
+    float: right;
+    margin-right: 90px;
+    margin-top: -30px;
+}
+
+.map-wrapper .example_form {
+    margin-top: 12px;
+}
+
+.map-wrapper .buttons {
+    margin: 0 auto 30px;
+    display: block;
+}
+
+#map-nepal{
+    cursor: default;
+}
+
+.leaflet-container {
+    background: none!important;
+    margin-top: -60px;
+}
+
+.leaflet-overlay-pane svg g {
+    position: relative;
+    width: 100%;
+}
+
+#map-tooltip.active{
+    background: rgb(255, 255, 255);
+    background: rgba(255, 255, 255,0.9);
+    padding: 5px 10px;
+    border-radius: 2px;
+    z-index: 5;
+}
+
+.leaflet-overlay-pane svg g path:hover {
+    fill:#00A5B2!important;
+}
